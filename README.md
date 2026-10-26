@@ -14,9 +14,9 @@ Explore diretamente cada parte específica do projeto através dos links abaixo:
 3. **[Código - Camada Gold (Data Mart e Agregação)](./notebooks/03_gold_datamart.md)**
 
 ### 📸 Evidências Visuais (Unity Catalog e Execução)
-4. **[Evidência - Ingestão e Estrutura Medallion](./docs/01_lakehouse_bronze_ingestion.png)**
-5. **[Evidência - Governança e Tags DAMA-DMBOK (Silver)](./docs/02_dmbok_silver_governance_tags.png)**
-6. **[Evidência - Modelagem da Tabela Fato (Gold)](./docs/03_gold_business_mart.png)**
+4. **[Evidência - Ingestão e Estrutura Medallion](./Docs/01_lakehouse_bronze_ingestion.png)**
+5. **[Evidência - Governança e Tags DAMA-DMBOK (Silver)](./Docs/02_dmbok_silver_governance_tags.png)**
+6. **[Evidência - Modelagem da Tabela Fato (Gold)](./Docs/03_gold_business_mart.png)**
 
 ---
 
