@@ -1,1 +1,31 @@
+---
 
+### 3️⃣ Ficheiro da Pasta Docs: `docs/README.md`
+
+*(Crie este ficheiro dentro da pasta `docs/` com o nome `README.md`)*
+
+```markdown
+# 📸 Evidências de Execução e Governança
+
+Documentação visual da execução do pipeline no Databricks e das configurações aplicadas no Unity Catalog.
+
+---
+
+### 1️⃣ Ingestão e Arquitetura Medallion
+Mapeamento e execução inicial no notebook com a estrutura de catálogos (`dmbok_lakehouse`) expandida no menu lateral.
+
+![Camada Bronze](./01_lakehouse_bronze_ingestion.png)
+
+---
+
+### 2️⃣ Governança e Tags DAMA-DMBOK
+Detalhes da tabela `tbl_sales_cleaned` no Unity Catalog exibindo a tipagem dos dados e as **TAGS** (`data_quality: passed`, `dmbok_domain: sales`).
+
+![Governança Silver](./02_dmbok_silver_governance_tags.png)
+
+---
+
+### 3️⃣ Modelagem da Camada Gold
+Estrutura final da tabela `fato_faturamento_mensal` agregada e pronta para consumo por Business Intelligence.
+
+![Camada Gold](./03_gold_business_mart.png)
