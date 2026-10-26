@@ -6,17 +6,17 @@ Este repositório apresenta a implementação prática de um pipeline de dados n
 
 ## 🔗 Acesso Direto aos Códigos e Evidências (6 Etapas)
 
-Aceda rapidamente a cada parte específica do projeto através dos links abaixo:
+Explore diretamente cada parte específica do projeto através dos links abaixo:
 
 ### 💻 Códigos do Pipeline (Notebooks)
-1. **[Código - Camada Bronze (Ingestão de Dados Brutos)](./notebooks/README.md)**
-2. **[Código - Camada Silver (Qualidade e Aplicação de Regras)](./notebooks/README.md)**
-3. **[Código - Camada Gold (Data Mart e Visão de Negócio)](./notebooks/Camada Gold ( Data Mart - Negócio ).md)**
+1. **[Código - Camada Bronze (Ingestão de Dados Brutos)](./notebooks/01_bronze_ingestion.md)**
+2. **[Código - Camada Silver (Qualidade e Regras de Negócio)](./notebooks/02_silver_quality.md)**
+3. **[Código - Camada Gold (Data Mart e Agregação)](./notebooks/03_gold_datamart.md)**
 
 ### 📸 Evidências Visuais (Unity Catalog e Execução)
-4. **[Evidência - Ingestão e Estrutura Medallion](./docs/README.md)**
-5. **[Evidência - Governança e Tags DAMA-DMBOK (Silver)](./docs/README.md)**
-6. **[Evidência - Modelagem da Tabela Fato (Gold)](./docs/README.md)**
+4. **[Evidência - Ingestão e Estrutura Medallion](./docs/01_lakehouse_bronze_ingestion.png)**
+5. **[Evidência - Governança e Tags DAMA-DMBOK (Silver)](./docs/02_dmbok_silver_governance_tags.png)**
+6. **[Evidência - Modelagem da Tabela Fato (Gold)](./docs/03_gold_business_mart.png)**
 
 ---
 
