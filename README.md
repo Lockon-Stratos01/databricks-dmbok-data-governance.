@@ -1,24 +1,30 @@
-# 📸 Evidências de Execução e Governança
+# 🚀 Governança de Dados no Databricks com DAMA-DMBOK
 
-Documentação visual da execução do pipeline no Databricks e das configurações aplicadas no Unity Catalog.
+Este repositório apresenta a implementação prática de um pipeline de dados no **Databricks**, unindo os princípios de Governança e Qualidade do framework **DAMA-DMBOK** à **Arquitetura Medallion** (Bronze, Silver e Gold).
 
----
-
-### 1️⃣ Ingestão e Arquitetura Medallion
-Mapeamento e execução inicial no notebook com a estrutura de catálogos (`dmbok_lakehouse`) expandida no menu lateral.
-
-![Camada Bronze](./01_lakehouse_bronze_ingestion.png)
+O objetivo principal é demonstrar como estruturar um pipeline completo com rastreabilidade, tratamento de qualidade e metadados organizados no **Unity Catalog**.
 
 ---
 
-### 2️⃣ Governança e Tags DAMA-DMBOK
-Detalhes da tabela `tbl_sales_cleaned` no Unity Catalog exibindo a tipagem dos dados e as **TAGS** (`data_quality: passed`, `dmbok_domain: sales`).
+## 📁 Estrutura do Repositório
 
-![Governança Silver](./02_dmbok_silver_governance_tags.png)
+* **[Documentação dos Notebooks](./notebooks/README.md):** Código PySpark e explicação de cada camada do pipeline.
+* **[Evidências e Capturas de Tela](./docs/README.md):** Validação visual da execução e das tags de governança no Unity Catalog.
 
 ---
 
-### 3️⃣ Modelagem da Camada Gold
-Estrutura final da tabela `fato_faturamento_mensal` agregada e pronta para consumo por Business Intelligence.
+## 💡 Aplicação Prática do DAMA-DMBOK
 
-![Camada Gold](./03_gold_business_mart.png)
+| Pilar DAMA-DMBOK | Aplicação no Databricks |
+| :--- | :--- |
+| **Data Governance** | Organização lógica no Unity Catalog (`dmbok_lakehouse.bronze`, `silver`, `gold`). |
+| **Data Quality** | Filtragem de nulos, tipagem e validação de regras de negócio na camada Silver. |
+| **Metadata Management** | Inserção de colunas de auditoria (`_ingestion_timestamp`) e **TAGS** de qualidade no catálogo. |
+| **Storage & Operations** | Armazenamento em Delta Lake com suporte a transações ACID e `overwriteSchema`. |
+
+---
+
+## 🧰 Tecnologias
+* **Databricks** (Unity Catalog & Serverless Compute)
+* **PySpark** & **Delta Lake**
+* **Framework DAMA-DMBOK**
