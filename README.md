@@ -1,18 +1,15 @@
-# databricks-dmbok-data-governance.
-Pipeline de Dados no Databricks com Arquitetura Medallion e aplicação prática do framework DAMA-DMBOK para Governança e Qualidade de Dados.
-
 # 🚀 Governança de Dados no Databricks com DAMA-DMBOK
 
-Este projeto demonstra a implementação prática de um pipeline de dados no **Databricks**, conectando os princípios de Governança e Qualidade do **DAMA-DMBOK** à **Arquitetura Medallion** (Bronze, Silver e Gold).
+Este repositório apresenta a implementação prática de um pipeline de dados no **Databricks**, unindo os princípios de Governança e Qualidade do framework **DAMA-DMBOK** à **Arquitetura Medallion** (Bronze, Silver e Gold).
 
-O objetivo é garantir o fluxo completo de dados com qualidade, rastreabilidade e metadados estruturados para o negócio.
+O objetivo principal é demonstrar como estruturar um pipeline completo com rastreabilidade, tratamento de qualidade e metadados organizados no **Unity Catalog**.
 
 ---
 
 ## 📁 Estrutura do Repositório
 
-* **[`notebooks/README.md`](./notebooks/README.md):** Documentação técnica das etapas do código PySpark (Bronze, Silver e Gold).
-* **[`docs/README.md`](./docs/README.md):** Evidências de execução e capturas de tela do Unity Catalog e Tags de Governança.
+* **[Documentação dos Notebooks](./notebooks/README.md):** Código PySpark e explicação de cada camada do pipeline.
+* **[Evidências e Capturas de Tela](./docs/README.md):** Validação visual da execução e das tags de governança no Unity Catalog.
 
 ---
 
@@ -20,14 +17,14 @@ O objetivo é garantir o fluxo completo de dados com qualidade, rastreabilidade 
 
 | Pilar DAMA-DMBOK | Aplicação no Databricks |
 | :--- | :--- |
-| **Data Governance** | Separação de camadas no Unity Catalog (`dmbok_lakehouse.bronze`, `silver`, `gold`). |
-| **Data Quality** | Filtragem de nulos, tipagem e regras de validação de negócio na camada Silver. |
+| **Data Governance** | Organização lógica no Unity Catalog (`dmbok_lakehouse.bronze`, `silver`, `gold`). |
+| **Data Quality** | Filtragem de nulos, tipagem e validação de regras de negócio na camada Silver. |
 | **Metadata Management** | Inserção de colunas de auditoria (`_ingestion_timestamp`) e **TAGS** de qualidade no catálogo. |
-| **Storage & Operations** | Persistência em Delta Lake com suporte a transações e `overwriteSchema`. |
+| **Storage & Operations** | Armazenamento em Delta Lake com suporte a transações ACID e `overwriteSchema`. |
 
 ---
 
-## 🧰 Tecnologias Utilizadas
-* **Databricks** (Unity Catalog)
+## 🧰 Tecnologias
+* **Databricks** (Unity Catalog & Serverless Compute)
 * **PySpark** & **Delta Lake**
 * **Framework DAMA-DMBOK**
