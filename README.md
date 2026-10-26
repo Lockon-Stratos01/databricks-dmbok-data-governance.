@@ -11,7 +11,7 @@ Aceda rapidamente a cada parte específica do projeto através dos links abaixo:
 ### 💻 Códigos do Pipeline (Notebooks)
 1. **[Código - Camada Bronze (Ingestão de Dados Brutos)](./notebooks/README.md)**
 2. **[Código - Camada Silver (Qualidade e Aplicação de Regras)](./notebooks/README.md)**
-3. **[Código - Camada Gold (Data Mart e Visão de Negócio)](./notebooks/README.md)**
+3. **[Código - Camada Gold (Data Mart e Visão de Negócio)](./notebooks/Camada Gold ( Data Mart - Negócio ).md)**
 
 ### 📸 Evidências Visuais (Unity Catalog e Execução)
 4. **[Evidência - Ingestão e Estrutura Medallion](./docs/README.md)**
