@@ -9,7 +9,7 @@ Este repositório apresenta a implementação prática de um pipeline de dados n
 Explore diretamente cada parte específica do projeto através dos links abaixo:
 
 ### 💻 Códigos do Pipeline (Notebooks)
-1. **[Código - Camada Bronze (Ingestão de Dados Brutos)](./notebooks/01_bronze_ingestion.md)**
+1. **[Código - Camada Bronze (Ingestão de Dados Brutos)](./notebooks/README.md)**
 2. **[Código - Camada Silver (Qualidade e Regras de Negócio)](./notebooks/02_silver_quality.md)**
 3. **[Código - Camada Gold (Data Mart e Agregação)](./notebooks/03_gold_datamart.md)**
 
