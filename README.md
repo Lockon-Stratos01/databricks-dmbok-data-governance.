@@ -2,14 +2,21 @@
 
 Este repositório apresenta a implementação prática de um pipeline de dados no **Databricks**, unindo os princípios de Governança e Qualidade do framework **DAMA-DMBOK** à **Arquitetura Medallion** (Bronze, Silver e Gold).
 
-O objetivo principal é demonstrar como estruturar um pipeline completo com rastreabilidade, tratamento de qualidade e metadados organizados no **Unity Catalog**.
-
 ---
 
-## 📁 Estrutura do Repositório
+## 🔗 Acesso Direto aos Códigos e Evidências (6 Etapas)
 
-* **[Documentação dos Notebooks](./notebooks/README.md):** Código PySpark e explicação de cada camada do pipeline.
-* **[Evidências e Capturas de Tela](./docs/README.md):** Validação visual da execução e das tags de governança no Unity Catalog.
+Aceda rapidamente a cada parte específica do projeto através dos links abaixo:
+
+### 💻 Códigos do Pipeline (Notebooks)
+1. **[Código - Camada Bronze (Ingestão de Dados Brutos)](./notebooks/README.md)**
+2. **[Código - Camada Silver (Qualidade e Aplicação de Regras)](./notebooks/README.md)**
+3. **[Código - Camada Gold (Data Mart e Visão de Negócio)](./notebooks/README.md)**
+
+### 📸 Evidências Visuais (Unity Catalog e Execução)
+4. **[Evidência - Ingestão e Estrutura Medallion](./docs/README.md)**
+5. **[Evidência - Governança e Tags DAMA-DMBOK (Silver)](./docs/README.md)**
+6. **[Evidência - Modelagem da Tabela Fato (Gold)](./docs/README.md)**
 
 ---
 
