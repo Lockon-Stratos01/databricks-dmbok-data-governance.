@@ -9,7 +9,7 @@ O objetivo principal é demonstrar como estruturar um pipeline completo com rast
 ## 📁 Estrutura do Repositório
 
 * **[Documentação dos Notebooks](./notebooks/README.md):** Código PySpark e explicação de cada camada do pipeline.
-* **[Evidências e Capturas de Tela](./docs/README.md):** Validação visual da execução e das tags de governança no Unity Catalog.
+* **[Evidências e Capturas de Tela](./Docs/README.md):** Validação visual da execução e das tags de governança no Unity Catalog.
 
 ---
 
